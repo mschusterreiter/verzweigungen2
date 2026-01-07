@@ -1,4 +1,4 @@
-# Übung 3 - Operatoren
+# Übung 5 - Verzweigungen
 
 **Achtung:** Die beiliegende Main-Klasse beinhaltet die Testfälle für die Aufgaben 1, 2 und 3. 
 Wenn Sie vorerst nur eine der drei Aufgaben testen wollen, kommentieren Sie die Testfälle 
