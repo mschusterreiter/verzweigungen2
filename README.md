@@ -15,7 +15,7 @@ Folgendes Klassendiagramm soll umgesetzt werden:
 **Spezifikationen:**
 - Im Konstruktor müssen statt der Zuweisung die `set`-Methoden aufgerufen werden.
 - Die Parameternamen des Konstruktors müssen gleich den Eigenschaftsnamen sein. 
-- `print()`: Gibt alle Eigenschaften in der Konsole aus. Folgendermaßen soll die Ausgabe aussehen: 
+- `print()`: Gibt alle Eigenschaften in der Konsole aus. Folgendermaßen soll die Ausgabe aussehen: \
 ##############################  
 \## Linienbus: true  
 \## Anzahl Sitzplätze: 50
