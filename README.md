@@ -59,13 +59,13 @@ Prüfen Sie die Bedingungen an der geeigneten Stelle. Falls eine Bedingung nicht
 **Beschreibung der Methoden:**
 - Im Konstruktor müssen statt der Zuweisung die set-Methoden aufgerufen werden.
 - Die Parameternamen des Konstruktors müssen gleich den Eigenschaftsnamen sein.
-- `printTierhandlung()`: Gibt alle Eigenschaften in der Konsole aus. Wenn die Tierhandlung geöffnet ist, soll nicht true ausgegeben werden, sondern „geöffnet“. Wenn die Tierhandlung geschlossen ist, soll nicht false, sondern „geschlossen“ ausgegeben werden. Folgendermaßen soll die Ausgabe aussehen:
- ##############################  
-\## Besitzer: Toni Tierlieb  
-\## Anzahl Tiere: 5
-\## Maximale Anzahl Tiere: 10
-\## Miete: 100.0
-\## Offen: Geöffnet  
+- `printTierhandlung()`: Gibt alle Eigenschaften in der Konsole aus. Wenn die Tierhandlung geöffnet ist, soll nicht true ausgegeben werden, sondern „geöffnet“. Wenn die Tierhandlung geschlossen ist, soll nicht false, sondern „geschlossen“ ausgegeben werden. Folgendermaßen soll die Ausgabe aussehen: \
+\##############################  
+\## Besitzer: Toni Tierlieb  \
+\## Anzahl Tiere: 5 \
+\## Maximale Anzahl Tiere: 10 \
+\## Miete: 100.0 \
+\## Offen: Geöffnet   \
 \##############################
 - `tierVerkauf(int anzahl)`: Es sollen `anzahl` Tiere verkauft werden. `anzahl` muss größer 0 sein. Welche Bedingung muss `anzahl` (sinnvollerweise) noch erfüllen? Außerdem darf nur eingekauft werden, wenn die Tierhandlung geöffnet ist. In jedem Fall soll eine entsprechende Meldung ausgegeben werden.
 - `mieteErhoehen(int prozent)`: Die Miete soll um `prozent` erhöht werden. `prozent` muss größer 0 sein.
