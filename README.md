@@ -16,11 +16,11 @@ Folgendes Klassendiagramm soll umgesetzt werden:
 - Im Konstruktor müssen statt der Zuweisung die `set`-Methoden aufgerufen werden.
 - Die Parameternamen des Konstruktors müssen gleich den Eigenschaftsnamen sein. 
 - `print()`: Gibt alle Eigenschaften in der Konsole aus. Folgendermaßen soll die Ausgabe aussehen: \
-##############################  
-\## Linienbus: true  
-\## Anzahl Sitzplätze: 50
-\## Firma: Musterbus GmbH 
-\## Anzahl Sitzplätze besetzt: 0  
+\##############################  
+\## Linienbus: true  \
+\## Anzahl Sitzplätze: 50 \
+\## Firma: Musterbus GmbH \
+\## Anzahl Sitzplätze besetzt: 0  \
 \##############################
 - `einsteigen(int anzahl)`: Es steigen Leute in den Bus ein. Prüfen Sie, ob eine gültige Zahl eingegeben wurde und ob genug Platz im Bus ist. Ist die Zahl gültig und es ist genug Platz im Bus, dann dürfen die Personen einsteigen. Wenn eine der beiden Bedingungen nicht erfüllt ist, darf niemand einsteigen. Geben Sie in beiden Fällen eine Meldung aus. Welche Variable müssen Sie verändern?
 - `aussteigen(int anzahl)`: Es wollen Leute aus dem Bus aussteigen. Prüfen Sie, ob eine gültige Zahl eingegeben wurde. Wenn schon, dann dürfen die Personen aussteigen. Wenn nicht, dann darf niemand aussteigen. Geben Sie in beiden Fällen eine Meldung aus.
